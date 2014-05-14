@@ -91,9 +91,108 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#wrapper{
+    width: 980px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background: -webkit-linear-gradient(black, white, white, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, white, white, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, white, white, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, white, white, white); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(black, white, white, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, white, white, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, white, white, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, white, white, white, white); /* Standard syntax (must be last) */
+}
+#topbanner{
+width: 940px;
+padding-left: 20px;
+padding-top: 20px;
+color: white;
+}
+#topnumber{
+    float: right;
+    
+}
+.image{
+    padding-bottom: 10px;
+}
+#leftnavi{
+    width: 243px;
+        /*-- i changed the size to fit with the border--*/
+    background-color: #0d9343;
+    float:left;
+    border: none;
+    border-width: 1px;
+    height: auto;
+}
+#navi{
+    height: 280px;
 
+    text-align: center;
+    vertical-align: top;
+    width: 245px;
+}
 
-
+#navi a{
+    font-size: 20px;
+color: white;
+text-decoration: none;
+}
+tr {
+    border-bottom: 1px solid white;
+}
+.ourfleet{
+    border-bottom: none;
+}
+#content{
+    width:733px;
+    /*-- i changed the size to fit with the border--*/
+    background-color: transparent;
+    float: left;
+    border: none;
+    border-width: 1px;
+}
+#toppic{
+padding: 40px;
+    
+}
+.topleft{
+padding-left: 20px;
+padding-right: 100px;
+}
+.topright{
+padding-left: 10px;
+}
+#text{
+    text-align: center;
+    font-size: 20px;
+    font-family: georgia;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+#botpic{
+text-align: center;
+}
+.botpic{
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    margin-top: 20px;
+}
+.par{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: white;
+    padding: 3px;
+}
 
 
 
